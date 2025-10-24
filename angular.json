@@ -65,6 +65,7 @@
               "baseHref": "/NCCountDown/",
               "deployUrl": "/NCCountDown/",
               "browser": "src/main.static.ts",
+              "outputMode": "static",
               "ssr": false
             }
           },
