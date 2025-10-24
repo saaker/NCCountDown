@@ -35,9 +35,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-    - name: Build Angular app for GitHub Pages
-      run: |
-        npx ng build --configuration=production --base-href="/NCCountDown/" --output-path=dist --main=src/main.static.ts      - name: Setup Pages
+      - name: Build Angular app for GitHub Pages
+        run: |
+          npx ng build --configuration=production --base-href="/NCCountDown/" --output-path=dist --main=src/main.static.ts
+
+      - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
