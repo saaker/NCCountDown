@@ -56,6 +56,14 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "github-pages": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractLicenses": true,
+              "baseHref": "/NCCountDown/",
+              "deployUrl": "/NCCountDown/"
             }
           },
           "defaultConfiguration": "production"
@@ -68,6 +76,9 @@
             },
             "development": {
               "buildTarget": "NC-count-down:build:development"
+            },
+            "github-pages": {
+              "buildTarget": "NC-count-down:build:github-pages"
             }
           },
           "defaultConfiguration": "development"
