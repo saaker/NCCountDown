@@ -63,7 +63,9 @@
               "sourceMap": false,
               "extractLicenses": true,
               "baseHref": "/NCCountDown/",
-              "deployUrl": "/NCCountDown/"
+              "deployUrl": "/NCCountDown/",
+              "browser": "src/main.static.ts",
+              "ssr": false
             }
           },
           "defaultConfiguration": "production"
