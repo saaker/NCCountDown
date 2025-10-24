@@ -1,0 +1,9 @@
+:host {
+    margin-top: 5px; 
+    
+    &> div {
+        display: flex;
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+}

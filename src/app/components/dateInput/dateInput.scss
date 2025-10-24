@@ -1,0 +1,13 @@
+:host {
+    display: flex;
+    width: 100%;
+
+    & input {
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        font-family: inherit;
+        color: #000;
+        border: none;
+    }
+}
